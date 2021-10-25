@@ -2,9 +2,11 @@
 Kotlin
 Dagger2
 Rxjava2
-MVVM
 Retrofit2
 Glide
+Android jetpack
 Android Navigation Component 
+Android Architecture Components 
+MVVM
 DataBinding
 and etc.
