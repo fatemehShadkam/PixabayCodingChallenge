@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="PhotoResponse"
+            type="group.payback.pixabay.network.model.PhotoModel.PhotoResponse"/>
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photo_container"
+    android:layout_margin="@dimen/_5mdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageview_item_preview"
+        android:layout_width="@dimen/_100mdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/logo_pixabay" />
+
+
+    <TextView
+        android:id="@+id/textView_item_tags"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/gray_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageview_item_preview"
+        tools:text="tag1, tag2"
+        android:text="@{PhotoResponse.tags}"/>
+
+    <TextView
+
+        android:id="@+id/textView_item_username"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/green_500"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageview_item_preview"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="username"
+        android:text="@{PhotoResponse.userName}"
+        app:drawableLeftCompat="@drawable/ic_user" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

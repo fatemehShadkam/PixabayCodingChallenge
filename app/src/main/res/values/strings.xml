@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pixabay</string>
+
+
+    <string name="search_filter_default_value">fruits</string>
+    <string name="search_view_hint">Search photos</string>
+</resources>

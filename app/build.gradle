@@ -1,0 +1,119 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id "androidx.navigation.safeargs"
+
+}
+
+android {
+    compileSdk 30
+
+    defaultConfig {
+        applicationId "group.payback.pixabay"
+        minSdk 23
+        targetSdk 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    /*   implementation 'androidx.core:core-ktx:1.6.0'
+       implementation 'androidx.appcompat:appcompat:1.3.1'
+       implementation 'com.google.android.material:material:1.4.0'
+       implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+       testImplementation 'junit:junit:4.13.2'
+       androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+       androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'*/
+
+
+    def appCompatVersion = "1.3.1"
+    def constraintLayoutVersion = "2.1.1"
+    def glideVersion = "4.11.0"
+    def kotlinVersion = "1.3.21"
+    def lifecycleVersion = "1.1.1"
+    def gsonVersion = "2.8.6"
+    def daggerVersion = "2.39.1"
+    def retrofitVersion = "2.9.0"
+    def recyclerviewVersion = "1.0.0"
+    def timberVersion = "4.7.1"
+    def rxjavaVersion = "2.2.19"
+    def rxandroidVersion = "2.1.1"
+    def navigationVersion = "2.3.1"
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "androidx.core:core-ktx:1.6.0"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation "com.android.support:recyclerview-v7:$recyclerviewVersion"
+
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation "android.arch.core:core-testing:1.1.1"
+    testImplementation 'com.nhaarman:mockito-kotlin:1.5.0'
+
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+
+    // retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+    //Gson
+    implementation "com.google.code.gson:gson:$gsonVersion"
+
+    //Rxjava
+    implementation "io.reactivex.rxjava2:rxjava:$rxjavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroidVersion"
+
+    //dagger
+    implementation "com.google.dagger:dagger:$daggerVersion"
+    kapt "com.google.dagger:dagger-compiler:$daggerVersion"
+    implementation "com.google.dagger:dagger-android-support:$daggerVersion"
+    kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
+
+    //Timber
+    implementation "com.jakewharton.timber:timber:$timberVersion"
+
+    //Google Architecture components
+    implementation "android.arch.lifecycle:extensions:$lifecycleVersion"
+    implementation "android.arch.lifecycle:viewmodel:$lifecycleVersion"
+    implementation "android.arch.paging:runtime:$lifecycleVersion"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+
+    //Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+
+    implementation 'com.github.MrNouri:DynamicSizes:1.0'
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/baseline_cloud_download_24.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic__011706661578466234.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic__548882_user_interface_loading_loader_sync_icon.xml" value="0.1105" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic__default_image.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_broken_image.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_comment.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_connection_error.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_download.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_download1.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_like.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_loading.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_search.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/ic_user.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/loading_img.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/round_remove_red_eye_24.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/drawable/round_thumb_up_24.xml" value="0.1165" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/layout/fragment_photo.xml" value="0.1" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/layout/fragment_photo_details.xml" value="0.1" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/layout/fragment_photo_list.xml" value="0.11614583333333334" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/layout/fragment_photos_list.xml" value="0.1" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/layout/item_photo.xml" value="0.1" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/menu/search_menu.xml" value="0.12864583333333332" />
+        <entry key="..\:/project android/new projects/kotlin/pixabay/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
