@@ -12,13 +12,8 @@ class PixabayApplication : DaggerApplication() {
 
     override fun onCreate() {
         super.onCreate()
-        timber()
     }
 
-    private fun timber() {
-        if (BuildConfig.DEBUG)
-            Timber.plant(Timber.DebugTree())
-    }
 
     override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
         return DaggerComponentApplication.builder().application(this).build()
